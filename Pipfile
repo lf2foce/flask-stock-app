@@ -1,0 +1,24 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+flask = "*"
+pandas = "*"
+requests = "*"
+numpy = "*"
+flask-sqlalchemy = "*"
+firebase-admin = "*"
+beautifulsoup4 = "*"
+selenium = "*"
+flask-marshmallow = "*"
+flask-jwt-extended = "*"
+plotly = "==4.11.0"
+cachetools = "*"
+
+[requires]
+python_version = "3.8"

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+    <a href="/">Back To Recipe List</a>
+    <h1>{{ template_recipe | title }}</h1>
+
+    <h3>Book</h3>
+    <ul>
+    {% for key, book in template_book|dictsort %}
+      <li>{{ book }}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
